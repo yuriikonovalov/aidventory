@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="expired">Прострочено</string>
+    <string name="expired_dialog_delete_title">Підтвердити видалення</string>
+    <string name="expired_dialog_delete_text">Ви впевнені, що хочете видалити цей засіб?</string>
+    <string name="expired_delete_supply">Видалити засіб</string>
+    <string name="expired_without_container_text">Без місця зберігання</string>
+    <string name="expired_top_app_bar_title">Прострочені засоби</string>
+    <string name="expired_empty_content_text">У вашій аптечці немає прострочених засобів.</string>
+
+    <plurals name="expired_number_of_supplies">
+        <item quantity="one">%d засіб</item>
+        <item quantity="few">%d засоби</item>
+        <item quantity="many">%d засобів</item>
+        <item quantity="other">%d засобів</item>
+    </plurals>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="default_supply_use_*">
+    <!-- keep = "default_supply_use_*" stops R8 from deleting these strings
+        because there's no static references to them in the code. -->
+    <string name="default_supply_use_pain_relief" tools:keep="@string/default_supply_use_pain_relief">Pain relief</string>
+    <string name="default_supply_use_fever" tools:keep="@string/default_supply_use_fever">Fever</string>
+    <string name="default_supply_use_inflammation" tools:keep="@string/default_supply_use_inflammation">Inflammation </string>
+    <string name="default_supply_use_vitamins" tools:keep="@string/default_supply_use_vitamins">Vitamins</string>
+    <string name="default_supply_use_cough_relief" tools:keep="@string/default_supply_use_cough_relief">Cough relief</string>
+    <string name="default_supply_use_cold_relief" tools:keep="@string/default_supply_use_cold_relief">Cold relief</string>
+    <string name="default_supply_use_digestive_disorders" tools:keep="@string/default_supply_use_digestive_disorders">Digestive disorders</string>
+    <string name="default_supply_use_allergy_relief" tools:keep="@string/default_supply_use_allergy_relief">Allergy relief</string>
+    <string name="default_supply_use_antibiotics" tools:keep="@string/default_supply_use_antibiotics">Antibiotics</string>
+    <string name="default_supply_use_antidepressants" tools:keep="@string/default_supply_use_antidepressants">Antidepressants</string>
+
+    <string name="dialog_button_delete">Yes, delete</string>
+    <string name="dialog_button_cancel">Cancel</string>
+
+    <string name="supply_detail_supply_uses_placeholder">No supply uses</string>
+    <string name="supply_detail_supply_uses_label">Supply Uses</string>
+    <string name="supply_detail_expiry_label">Expiry date</string>
+    <string name="supply_detail_expiry_placeholder">No expiry</string>
+    <string name="supply_detail_container_label">Container</string>
+    <string name="supply_detail_container_placeholder">No container</string>
+    <string name="supply_detail_search_button">Start quick search</string>
+    <string name="supply_detail_content_quick_search_disabled_text">Move this supply to a container in order to use quick search.</string>
+    <string name="torch_toggle_on_content_description">Turn torch off</string>
+    <string name="torch_toggle_off_content_description">Turn torch on</string>
+    <string name="share_qr_button_send">Send</string>
+    <string name="share_qr_button_save">Save</string>
+    <string name="share_qr_text">How do you want to share the QR code?</string>
+    <string name="notification_supply_expiry_title">Supply is expired</string>
+    <string name="notification_channel_expired_supplies_name">Expired supplies</string>
+    <string name="notification_channel_expired_supplies_description">Notifies you when any of your supply gets expired</string>
+    <string name="notification_expired_supply_text">%s is expired today!</string>
+    <string name="share_qr_message">The QR code is represented as a PDF file.</string>
+
+    <plurals name="notification_expired_supplies_text">
+        <item quantity="one">and %d other supply are expired today!</item>
+        <item quantity="other">and %d other supplies are expired today!</item>
+    </plurals>
+</resources>

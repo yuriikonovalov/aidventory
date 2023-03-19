@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scanner">Сканер</string>
+    <string name="scanner_rationale">Щоб сканувати QR-коди місць зберігання, нам потрібен доступ до вашої камери.</string>
+    <string name="scanner_button_grant_permission">Надати дозвіл</string>
+    <string name="scanner_or">або</string>
+    <string name="scanner_button_go_back">Повернутися назад</string>
+    <string name="scanner_permission_not_granted">Вибачте, але без доступу до камери ви не зможете використовувати функцію сканування в нашому додатку.</string>
+    <string name="bottom_sheet_not_found_text">Засобів чи контейнерів не знайдено.</string>
+    <string name="bottom_sheet_not_found_button_add">Додати як засіб</string>
+    <string name="bottom_sheet_not_found_or">або</string>
+    <string name="bottom_sheet_not_found_button_scan">Сканувати знову</string>
+    <string name="scanner_turn_torch_on">Ввімкнути ліхтарик</string>
+    <string name="scanner_turn_torch_off">Вимкнути ліхтарик</string>
+    <string name="quick_search_scanner_hint_text">Наведіть камеру на QR або штрих-код</string>
+    <string name="scanner_multiple_result_supply_label">Засіб</string>
+    <string name="scanner_multiple_result_container_label">Місце зберігання</string>
+    <string name="scanner_multiple_result_text">Знайдено кілька результатів для того самого QR/штрих-коду. Виберіть, як ви хочете продовжити.</string>
+</resources>

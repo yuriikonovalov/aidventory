@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="default_supply_use_*">
+    <string name="default_supply_use_pain_relief" tools:keep="@string/default_supply_use_allergy_relief">Полегшення болю</string>
+    <string name="default_supply_use_inflammation" tools:keep="@string/default_supply_use_inflammation">Запалення</string>
+    <string name="default_supply_use_vitamins" tools:keep="@string/default_supply_use_vitamins">Вітаміни</string>
+    <string name="default_supply_use_digestive_disorders" tools:keep="@string/default_supply_use_digestive_disorders">Розлади травлення</string>
+    <string name="default_supply_use_allergy_relief" tools:keep="@string/default_supply_use_allergy_relief">Зняття алергії</string>
+    <string name="default_supply_use_antibiotics" tools:keep="@string/default_supply_use_antibiotics">Антибіотики</string>
+    <string name="default_supply_use_antidepressants" tools:keep="@string/default_supply_use_antidepressants">Антидепресанти</string>
+    <string name="default_supply_use_cough_relief" tools:keep="@string/default_supply_use_cough_relief">Полегшення кашлю</string>
+    <string name="default_supply_use_cold_relief" tools:keep="@string/default_supply_use_cold_relief">Від застуди</string>
+    <string name="default_supply_use_fever" tools:keep="@string/default_supply_use_fever">Лихоманка</string>
+
+
+    <string name="dialog_button_delete">Так, видалити</string>
+    <string name="dialog_button_cancel">Скасувати</string>
+    <string name="supply_detail_supply_uses_placeholder">Без призначення засобу</string>
+    <string name="supply_detail_supply_uses_label">Призначення засобу</string>
+    <string name="supply_detail_expiry_label">Термін придатності</string>
+    <string name="supply_detail_expiry_placeholder">Без терміну придатності</string>
+    <string name="supply_detail_container_label">Місце зберігання</string>
+    <string name="supply_detail_container_placeholder">Без місця зберігання</string>
+    <string name="supply_detail_search_button">Почати швидкий пошук</string>
+    <string name="supply_detail_content_quick_search_disabled_text">Вкажіть місце зберігання для засобу, щоб скористатися швидким пошуком.</string>
+    <string name="torch_toggle_on_content_description">Вимкнути ліхтар</string>
+    <string name="torch_toggle_off_content_description">Ввімкнути ліхтар</string>
+    <string name="share_qr_button_send">Надіслати</string>
+    <string name="share_qr_button_save">Зберегти</string>
+    <string name="share_qr_text">Яким чином ви хочете поділитися QR-кодом?</string>
+    <string name="notification_supply_expiry_title">Термін придатності закінчився</string>
+    <string name="notification_channel_expired_supplies_name">Засоби, з вичерпаним терміном придатності</string>
+    <string name="notification_channel_expired_supplies_description">Сповіщає про закінчення терміну придатності засобів</string>
+    <string name="notification_expired_supply_text">%s - термін придатності закінчується сьогодні!</string>
+
+
+    <plurals name="notification_expired_supplies_text">
+        <item quantity="one">та %d інший засіб мають термін придатні, який закінчується сьогодні!</item>
+        <item quantity="few">та %d інших засобів мають термін придатні, який закінчується сьогодні!</item>
+        <item quantity="many">та %d інших засобів мають термін придатні, який закінчується сьогодні!</item>
+        <item quantity="other">та %d інших засобів мають термін придатні, який закінчується сьогодні!</item>
+    </plurals>
+    <string name="share_qr_message">QR-код представлений у вигляді PDF-файлу.</string>
+</resources>

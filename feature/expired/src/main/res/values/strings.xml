@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="expired">Expired</string>
+    <string name="expired_dialog_delete_title">Confirm deleting</string>
+    <string name="expired_dialog_delete_text">Are you sure you want to delete this supply?</string>
+    <string name="expired_delete_supply">Delete supply</string>
+    <string name="expired_without_container_text">Without container</string>
+    <string name="expired_top_app_bar_title">Expired supplies</string>
+    <string name="expired_empty_content_text">There\'s no any expired supply in your first aid kit.</string>
+    <plurals name="expired_number_of_supplies">
+        <item quantity="one">%d supply</item>
+        <item quantity="other">%d supplies</item>
+    </plurals>
+</resources>

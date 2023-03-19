@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "88012262486",
+    "project_id": "aidventory",
+    "storage_bucket": "aidventory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:88012262486:android:cb8f3f1c51f089a4f63ff7",
+        "android_client_info": {
+          "package_name": "com.aidventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "88012262486-ee6c3p4oo4oip1krm990jlqndev7s8r2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjv6UOHt3pWGIv_6fTldY18A03_pFUV9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "88012262486-ee6c3p4oo4oip1krm990jlqndev7s8r2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

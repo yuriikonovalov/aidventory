@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="scanner">Scanner</string>
+    <string name="scanner_rationale">To scan QR codes on containers, we need access to your camera.</string>
+    <string name="scanner_button_grant_permission">Grant permission</string>
+    <string name="scanner_or">or</string>
+    <string name="scanner_button_go_back">Go back</string>
+    <string name="scanner_permission_not_granted">We\'re sorry, but without granting camera permission, you won\'t be able to use the scanning feature in our app.</string>
+    <string name="bottom_sheet_not_found_text">No supplies or containers found.</string>
+    <string name="bottom_sheet_not_found_button_add">Add as a supply</string>
+    <string name="bottom_sheet_not_found_or">or</string>
+    <string name="bottom_sheet_not_found_button_scan">Scan again</string>
+    <string name="scanner_turn_torch_on">Turn torch on</string>
+    <string name="scanner_turn_torch_off">Turn torch off</string>
+    <string name="quick_search_scanner_hint_text">Point your camera at a barcode</string>
+    <string name="scanner_multiple_result_supply_label">Supply</string>
+    <string name="scanner_multiple_result_container_label">Container</string>
+    <string name="scanner_multiple_result_text">Looks like there\'s a few results for the same barcode. Choose which you want to continue with.</string>
+</resources>

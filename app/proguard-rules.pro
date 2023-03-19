@@ -19,3 +19,10 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# R classes are used to get strings by reflection.
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+-keep class **.R$*

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="top_app_bar_title_home">Home</string>
+    <string name="top_app_bar_title">My first aid kit</string>
+    <string name="search_text_field_placeholder">Search for supplies</string>
+    <string name="search_clear_input">Clear input</string>
+    <string name="home_supplies_title">Supplies</string>
+    <string name="home_supplies_empty_text">There\'s no any supply yet</string>
+    <string name="home_supplies_add_text">add supply</string>
+    <string name="home_containers_title">Containers</string>
+    <string name="home_containers_empty_text">There\'s no any container yet</string>
+    <string name="home_add_text">add container</string>
+    <string name="home_more_text" tools:ignore="PluralsCandidate">+%d more</string>
+
+    <plurals name="search_found_supplies_text">
+        <item quantity="one">found %d supply</item>
+        <item quantity="other">found %d supplies</item>
+    </plurals>
+
+</resources>

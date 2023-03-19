@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_track_your_supplies_title">Ведіть облік засобів</string>
+    <string name="onboarding_track_your_supplies_text">Легко додавайте засоби для обліку, відсканувавши QR або штрих-код і ввівши додаткову інформацію, таку як назва, термін придатності, призначення та місце зберігання.</string>
+    <string name="onboarding_scanner_title">Сканер</string>
+    <string name="onboarding_scanner_text">Швидко переглядайте деталі засобу або знайдіть його місцезнаходження, відсканувавши його QR/штрих-код.</string>
+    <string name="onboarding_expiry_notification_text">Отримуйте сповіщення, коли закінчується термін придатності, щоб завжди мати під рукою безпечні засоби першої допомоги.</string>
+    <string name="onboarding_expiry_notification_title">Сповіщення про закінчення терміну придатності</string>
+    <string name="onboarding_button_get_started">Почати</string>
+    <string name="onboarding_button_next">Далі</string>
+</resources>

@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Aidventory</string>
+    <string name="app_name" translatable="false">Aidventory</string>
+    <string name="onboarding_track_your_supplies_title">Track your supplies</string>
+    <string name="onboarding_track_your_supplies_text">Easily add supplies to your inventory by scanning their QR or Barcode and entering additional information such as name, expiry date, category, and location.</string>
+    <string name="onboarding_scanner_title">Scanner</string>
+    <string name="onboarding_scanner_text">Quickly identify the details of a supply or find its location by scanning its QR/Barcode.</string>
+    <string name="onboarding_expiry_notification_text">Get notified when a supply is about to expire, ensuring that you always have up-to-date and safe first aid supplies on hand.</string>
+    <string name="onboarding_expiry_notification_title">Expiry notifications</string>
+    <string name="onboarding_button_get_started">Get started</string>
+    <string name="onboarding_button_next">Next</string>
 </resources>

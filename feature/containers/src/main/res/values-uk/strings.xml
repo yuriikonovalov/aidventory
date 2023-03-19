@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="top_app_bar_title_containers">Місця зберігання</string>
+    <string name="top_app_bar_action_back">Повернутися назад</string>
+    <string name="top_app_bar_action_add">Додати місце зберігання</string>
+    <string name="top_app_bar_action_share">Поділитися QR-кодом</string>
+    <string name="top_app_bar_action_delete">Видалити місце зберігання</string>
+    <string name="dialog_delete_container_title">Підтвердити видалення</string>
+    <string name="dialog_delete_container_text">Ви впевнені, що хочете видалити це місце зберігання? Ви не можете скасувати цю дію.</string>
+    <string name="share_qr_text1">QR-код для місця зберігання згенеровано системою.</string>
+    <string name="share_qr_text2">Ви можете поділитися ним зараз або зробити це пізніше на екрані деталей місця зберігання.</string>
+    <string name="share_qr_button_send">Надіслати</string>
+    <string name="dialog_button_add_container">Додати</string>
+    <string name="add_container_label_name">Назва</string>
+    <string name="add_container_supporting_text">Поле не може бути порожнім.</string>
+    <string name="add_container_placeholder">напр. Місце зберігання №1</string>
+    <string name="container_details_label_created">Створено:</string>
+    <string name="container_details_label_number_of_supplies">Кількість засобів:</string>
+    <string name="container_detail_not_selected_placeholder">Деталі з’являться тут, коли ви виберете елемент зі списку.</string>
+    <string name="container_detail_supply_list_item_expiry_none">н/в</string>
+    <string name="container_detail_container_content_empty">Місце зберігання порожнє</string>
+    <string name="containers_empty_text">У вас ще немає жодного місця зберігання. Додайте щонайменше одне, щоб побачити його тут.</string>
+    <string name="share_qr_button_save">Зберегти</string>
+    <string name="containers_share_qr_dialog_button_close">Закрити</string>
+    <string name="containers_share_qr_dialog_title">Поділитися QR-кодом</string>
+    <string name="containers_share_qr_dialog_message">Під час створення PDF-файлу сталася помилка.</string>
+
+    <plurals name="container_card_items_quantity">
+        <item quantity="one">%d засіб</item>
+        <item quantity="few">%d засоби</item>
+        <item quantity="many">%d засобів</item>
+        <item quantity="other">%d засобів</item>
+    </plurals>
+</resources>

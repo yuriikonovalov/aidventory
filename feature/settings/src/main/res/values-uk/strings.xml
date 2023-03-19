@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings">Налаштування</string>
+    <string name="setting_item_data_text">Дані</string>
+    <string name="setting_item_supply_uses_text">Призначення засобів</string>
+    <string name="setting_item_theme_text">Тема</string>
+    <string name="setting_item_about_text">Про додаток</string>
+    <string name="setting_item_data_description">Експорт • Імпорт • Видалити</string>
+    <string name="setting_item_supply_uses_description">Додати • Видалити</string>
+    <string name="setting_item_theme_description">Світла • Темна • Система</string>
+    <string name="setting_item_about_description">Версія • Атрибуція</string>
+    <string name="theme_item_light">Світла</string>
+    <string name="theme_item_dark">Темна</string>
+    <string name="theme_item_follow_system">Системна</string>
+    <string name="supply_use_button_delete">Видалити</string>
+    <string name="supply_uses_delete_dialog_title">Підтвердити видалення</string>
+    <string name="supply_uses_delete_dialog_text">Ви впевнені, що хочете видалити %s?</string>
+
+    <string name="supply_uses_add_dialog_label">Назва</string>
+    <string name="supply_uses_add_dialog_placeholder">напр., знеболювальне</string>
+    <string name="supply_uses_add_dialog_error">Поле не може бути порожнім.</string>
+    <string name="supply_uses_button_new">нове призначення</string>
+    <string name="data_action_export">Експортувати дані</string>
+    <string name="data_action_import">Імпортувати дані</string>
+    <string name="data_action_clear">Видалити дані</string>
+    <string name="data_action_export_description">Надіслати або зберегти свої дані як файл</string>
+    <string name="data_action_import_description">Імпортувати дані з попередньо експортованого файлу</string>
+    <string name="data_action_clear_description">Видалити всі дані</string>
+    <string name="data_export_dialog_title">Що ви хочете зробити зі своїми даними?</string>
+    <string name="data_export_dialog_button_send">Надіслати</string>
+    <string name="data_export_dialog_button_save">Зберегти</string>
+    <string name="data_delete_dialog_title">Підтвердити видалення</string>
+    <string name="data_delete_dialog_text">Ви впевнені, що хочете видалити всі свої дані?</string>
+    <string name="data_export_dialog_text">Ваші дані запаковані у файл JSON, який можна використовувати для відновлення даних пізніше.</string>
+    <string name="button_cancel">Скасувати</string>
+    <string name="button_save">Зберегти</string>
+    <string name="data_backup_dialog_button_cancel">Скасувати</string>
+    <string name="data_backup_dialog_button_close">Закрити</string>
+    <string name="data_backup_dialog_title_import">Імпорт</string>
+    <string name="data_backup_dialog_title_export">Експорт</string>
+    <string name="data_backup_dialog_export_working">Підготовка даних для експорту.</string>
+    <string name="data_backup_dialog_export_failed">Сталася помилка. Не вдалося експортувати.</string>
+    <string name="data_backup_dialog_export_finished">Експорт завершено.</string>
+    <string name="data_backup_dialog_import_finished">Імпорт завершено.</string>
+    <string name="data_backup_dialog_import_working">Підготовка даних.</string>
+    <string name="data_backup_dialog_import_failed">Не вдалося імпортувати дані. Дані несумісні або пошкоджені.</string>
+    <string name="settings_empty_detail_pane_text">Виберіть категорію зі списку, щоб переглянути деталі.</string>
+    <string name="about_version">Версія: 1.0</string>
+    <string name="about_attribution">Атрибуція:</string>
+</resources>

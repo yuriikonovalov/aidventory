@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="top_app_bar_title_home">Головна</string>
+    <string name="top_app_bar_title">Моя аптечка</string>
+    <string name="home_supplies_title">Засоби</string>
+    <string name="home_supplies_empty_text">Немає жодного засобу</string>
+    <string name="home_supplies_add_text">додати засіб</string>
+    <string name="home_containers_title">Місця зберігання</string>
+    <string name="home_containers_empty_text">Немає жодного місця зберігання</string>
+    <string name="home_add_text">додати місце зберігання</string>
+    <string name="search_text_field_placeholder">Пошук засобів</string>
+    <string name="search_clear_input">Очистити введене</string>
+
+    <plurals name="search_found_supplies_text">
+        <item quantity="one">знайдено %d засіб</item>
+        <item quantity="few">знайдено %d засоби</item>
+        <item quantity="many">знайдено %d засобів</item>
+        <item quantity="other">знайдено %d засобів</item>
+    </plurals>
+    <string name="home_more_text">ще +%d</string>
+</resources>
