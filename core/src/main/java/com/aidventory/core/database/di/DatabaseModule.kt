@@ -27,7 +27,6 @@ internal object DatabaseModule {
             AidventoryDatabase::class.java,
             "aidventory_database"
         )
-            .fallbackToDestructiveMigration() //TODO: Delete this line before production or https://stackoverflow.com/questions/44197309/room-cannot-verify-the-data-integrity
             .addCallback(PrepopulateDefaultSupplyUsesCallback)
             .build()
 

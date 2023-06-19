@@ -133,36 +133,36 @@ class AddSupplyViewModel @Inject constructor(
     private fun changeBarcodeProcessorStateForContainerScanner(processorState: BarcodeProcessor.State) {
         // TODO: Write a test to check this. Now it seems to work.
         // Try to stop accidental emitting Scan.Sense after a container is found. (1 in 5-10 scans)
-        if (uiState.value.step is AddSupplyUiState.Step.Container
-            && (uiState.value.step as AddSupplyUiState.Step.Container).containerStepState is AddSupplyUiState.ContainerStepState.Scan
-        ) {
-            when (processorState) {
-                BarcodeProcessor.State.Sense -> _uiState.update {
-                    it.copy(
-                        step = AddSupplyUiState.Step.Container(AddSupplyUiState.ContainerStepState.Scan.Sense)
-                    )
-                }
+        if (uiState.value.step !is AddSupplyUiState.Step.Container ||
+            (uiState.value.step as AddSupplyUiState.Step.Container).containerStepState !is AddSupplyUiState.ContainerStepState.Scan
+        ) return
 
-                is BarcodeProcessor.State.Recognize -> _uiState.update {
-                    it.copy(
-                        step = AddSupplyUiState.Step.Container(AddSupplyUiState.ContainerStepState.Scan.Recognize)
-                    )
-                }
+        when (processorState) {
+            BarcodeProcessor.State.Sense -> _uiState.update {
+                it.copy(
+                    step = AddSupplyUiState.Step.Container(AddSupplyUiState.ContainerStepState.Scan.Sense)
+                )
+            }
 
-                is BarcodeProcessor.State.Communicate -> {
-                    val barcode = requireNotNull(processorState.barcode.rawValue)
-                    val container = uiState.value.containers.find { it.barcode == barcode }
-                    if (container == null) {
-                        _uiState.update {
-                            it.copy(
-                                step = AddSupplyUiState.Step.Container(
-                                    AddSupplyUiState.ContainerStepState.Scan.NotFoundScanResult
-                                )
+            is BarcodeProcessor.State.Recognize -> _uiState.update {
+                it.copy(
+                    step = AddSupplyUiState.Step.Container(AddSupplyUiState.ContainerStepState.Scan.Recognize)
+                )
+            }
+
+            is BarcodeProcessor.State.Communicate -> {
+                val barcode = requireNotNull(processorState.barcode.rawValue)
+                val container = uiState.value.containers.find { it.barcode == barcode }
+                if (container == null) {
+                    _uiState.update {
+                        it.copy(
+                            step = AddSupplyUiState.Step.Container(
+                                AddSupplyUiState.ContainerStepState.Scan.NotFoundScanResult
                             )
-                        }
-                    } else {
-                        _uiState.update { it.updateSelectedContainer(barcode) }
+                        )
                     }
+                } else {
+                    _uiState.update { it.updateSelectedContainer(barcode) }
                 }
             }
         }

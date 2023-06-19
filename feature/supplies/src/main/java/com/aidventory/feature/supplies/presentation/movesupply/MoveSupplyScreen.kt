@@ -443,7 +443,7 @@ private fun PermissionNotGrantedContent(
                 )
             },
             actions = {
-                IconButton(enabled = false, onClick = { /*TODO*/ }) {
+                IconButton(enabled = false, onClick = {  }) {
                     // Used as a placeholder to keep the ModeSwitch the same width.
                 }
             }
