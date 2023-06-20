@@ -22,7 +22,7 @@ plugins {
 
 val compileSdkVersion by extra(33)
 val targetSdkVersion by extra(33)
-val minSdkVersion by extra(26)
+val minSdkVersion by extra(28)
 
 tasks.register("clean", Delete::class) {
     delete(rootProject.buildDir)
