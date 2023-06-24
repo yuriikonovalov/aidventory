@@ -41,10 +41,10 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import com.aidventory.core.R
-import com.aidventory.core.common.designsystem.icon.AidventoryIcons
 import com.aidventory.core.barcode.processing.BarcodeAnalyzer
 import com.aidventory.core.barcode.processing.BarcodeProcessor
 import com.aidventory.core.barcode.processing.CoordinateTransformWrapperImpl
+import com.aidventory.core.common.designsystem.icon.AidventoryIcons
 
 @SuppressLint("UnsafeOptInUsageError")
 @Composable

@@ -22,12 +22,13 @@ class BarcodeAnalyzer(
 
     private val scanner = BarcodeScanning.getClient(options)
 
+
     @SuppressLint("UnsafeOptInUsageError")
     override fun analyze(imageProxy: ImageProxy) {
         val mediaImage = imageProxy.image
         if (mediaImage != null) {
             val image = InputImage.fromMediaImage(mediaImage, imageProxy.imageInfo.rotationDegrees)
-            val sourceOutputTransform = imageProxy.getCoordinateTransform()
+            val sourceOutputTransform = imageProxy.getOutputTransform()
 
             scanner.process(image)
                 .addOnSuccessListener { barcodes ->
@@ -45,7 +46,7 @@ class BarcodeAnalyzer(
     }
 
     @SuppressLint("UnsafeOptInUsageError")
-    private fun ImageProxy.getCoordinateTransform(): OutputTransform {
+    private fun ImageProxy.getOutputTransform(): OutputTransform {
         return ImageProxyTransformFactory()
             .apply { this.isUsingRotationDegrees = true }
             .getOutputTransform(this)
